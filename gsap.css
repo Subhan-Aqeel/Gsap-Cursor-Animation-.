@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cursor{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: crimson;
+    color: white;
+    position: fixed;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#image{
+     height: 400px;
+     width: 600px;
+     background-image: url(https://images.unsplash.com/photo-1722199663886-31249c6b5efb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0NXx8fGVufDB8fHx8fA%3D%3D);
+     position: relative;
+     background-size: cover;
+}
+#overlay{
+    height: 400px;
+    width: 600px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 10;
+}
